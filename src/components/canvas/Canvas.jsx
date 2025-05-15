@@ -37,6 +37,7 @@ export default function Canvas({ tool }) {
 
   return (
     <canvas
+      id={"canvas"}
       ref={canvasRef}
       width={600}
       height={300}

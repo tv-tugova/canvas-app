@@ -1,6 +1,6 @@
 import "./toolbar.css";
 
-export default function Toolbar({ tool, setTool }) {
+export default function Toolbar({ tool, setTool, onClear }) {
   return (
     <div className="toolbar">
       <button
@@ -14,6 +14,9 @@ export default function Toolbar({ tool, setTool }) {
         onClick={() => setTool("eraser")}
       >
         ЛАСТИК
+      </button>
+      <button className="clearall" onClick={onClear}>
+        Очистить все
       </button>
     </div>
   );
