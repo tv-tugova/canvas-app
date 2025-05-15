@@ -1,0 +1,17 @@
+.toolbar {
+  margin-top: 20px;
+  display: flex;
+  gap: 40px;
+}
+
+.toolbar button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.toolbar .active {
+  background-color: #1976d2;
+  color: white;
+}
